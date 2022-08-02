@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan & Colspan</title>
+</head>
+<body>
+    <h3>TIMELINE TABLE</h3>
+    <table width="80%" border="1" cellpadding="10" style="border-collapse:collapse">
+        <thead>
+            <tr>
+                <th rowspan="2">Nama</th>
+                <th colspan="4">Timeline</th>
+            </tr>
+            <tr>
+                <th>Minggu Ke-1</th>
+                <th>Minggu Ke-2</th>
+                <th>Minggu Ke-3</th>
+                <th>Minggu Ke-4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Salman Al Farisi</td>
+                <td colspan="3" align="center">Belajar HTML</td>
+                <td>Belajar CSS</td>
+            </tr>
+            <tr>
+                <td>Siti Aminah</td>
+                <td colspan="2" align="center">Belajar HTML</td>
+                <td colspan="2" align="center">Belajar CSS</td>
+            </tr>
+            <tr>
+                <td>Zahrotul Aisyah</td>
+                <td>Belajar HTML</td>
+                <td colspan="3" align="center">Belajar CSS</td>
+            </tr>                
+        </tbody>
+    </table>
+
+    <br><br><br><br>
+
+    <h3>Materi RPL</h3>
+    <table width="80%" border="1" style="border-collapse:collapse;" cellpadding="5px">
+        <thead>
+            <tr>
+                <th width="30%">Nama Mata Pelajaran</th>
+                <th width="70%">Materi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Pemrograman dasar -->
+            <tr>
+                <td rowspan="4">Pemrograman Dasar</td>
+                <td>Flowchart</td>     
+            </tr>
+            <tr>
+                <td>Variabel Tipe Data</td>
+            </tr>
+            <tr>
+                <td>Looping</td>
+            </tr>
+            <tr>
+                <td>Array</td>   
+            </tr>
+
+            <!-- Basis Data -->
+            <tr>
+                <td rowspan="3">Basis Data</td>
+                <td>Data Manipulation Language</td>               
+            </tr>
+            <tr>
+                <td>Data Definition Language</td>
+            </tr>
+            <tr>
+                <td>Data Control Language</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
